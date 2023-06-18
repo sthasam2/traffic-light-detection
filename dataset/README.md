@@ -1,0 +1,27 @@
+# Code/Directory Structure
+
+.
+
+* [archive](./archive)
+  * [test_dataset](./archive/test_dataset)
+    * [test_images](./archive/test_dataset/test_images)
+  * [train_dataset](./archive/train_dataset)
+  * [train](./archive/train_dataset/train)
+  * [train_1to500](./archive/train_dataset/train_1to500)
+  * [train_images](./archive/train_dataset/train_images)
+* [detected_and_cropped](./detected_and_cropped)
+  * [archive_cropped](./detected_and_cropped/archive_cropped)
+  * [S2TLD\(720x128-cropped](./detected_and_cropped/S2TLD(720x128-cropped))
+* [S2TLD(720x128)](./S2TLD(720x128))
+  * [normal_1](./S2TLD(720x128)/normal_1)
+    * [Annotations](./S2TLD(720x128)/normal_1/Annotations)
+    * [JPEGImages](./S2TLD(720x128)/normal_1/JPEGImages)
+  * [normal_2](./S2TLD(720x128)/normal_2)
+  * [Annotations](./S2TLD(720x128)/normal_2/Annotations)
+  * [JPEGImages](./S2TLD(720x128)/normal_2/JPEGImages)
+* [train_traffic_light](./train_traffic_light)
+  * [0_green](./train_traffic_light/0_green)
+  * [1_yellow](./train_traffic_light/1_yellow)
+  * [2_red](./train_traffic_light/2_red)
+  * [3_not](./train_traffic_light/3_not)
+* [zips](./zips)
